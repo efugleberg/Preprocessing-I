@@ -154,6 +154,8 @@ header {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  border: 1px solid grey;
+  background: aliceblue;
 }
 header nav {
   margin-top: 15px;
@@ -235,4 +237,10 @@ h3 {
 footer p {
   text-align: center;
   padding: 40px 0;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 490px;
+    margin: auto;
+  }
 }
